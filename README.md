@@ -22,6 +22,23 @@ concepts serve both the exam and Go backend job interviews.
 
 Each unit folder follows the same layout, so later units (`unit-02-...`, `unit-03-...`) will look the same.
 
+## Progress
+
+| Unit | Topic | Hours | Status |
+|---|---|---|---|
+| 1 | [Introduction](unit-01-introduction/) | 3 | Done |
+| 2 | Internet Addresses | 4 | Coming next |
+| 3 | URLs and URIs | 5 | Planned |
+| 4 | HTTP | 2 | Planned |
+| 5 | URLConnections | 5 | Planned |
+| 6 | Socket for Clients | 5 | Planned |
+| 7 | Socket for Servers | 5 | Planned |
+| 8 | Secure Socket | 4 | Planned |
+| 9 | Nonblocking I/O | 3 | Planned |
+| 10 | UDP | 5 | Planned |
+| 11 | IP Multicast | 2 | Planned |
+| 12 | Remote Method Invocation (RMI) | 2 | Planned |
+
 ## How to study a unit
 
 1. Open the unit's PDF and read **Part A (theory)**. It is shared by both languages.
