@@ -75,3 +75,25 @@ go run ./echo_client # terminal 2
 
 The PDF generators need Python with `reportlab` (`pip install reportlab`) and use Windows fonts.
 You only need them to rebuild a PDF; the PDFs are already in the repository.
+
+## Syllabus to Java to Go map
+
+The Java classes each unit is built on, and what replaces them in Go:
+
+| Unit | Java (exam) | Go (job) |
+|---|---|---|
+| 2 | `InetAddress`, `NetworkInterface` | `net.IP`, `net.LookupIP`, `net.Interfaces` |
+| 3 | `URL`, `URI`, `URLEncoder` | `net/url` |
+| 4-5 | `HttpURLConnection`, `CookieManager` | `net/http`, `net/http/cookiejar` |
+| 6-7 | `Socket`, `ServerSocket` | `net.Dial`, `net.Listen` |
+| 8 | `SSLSocket`, `SSLServerSocket` | `crypto/tls` |
+| 9 | NIO `Selector`, `SocketChannel` | goroutines + runtime netpoller |
+| 10 | `DatagramSocket`, `DatagramPacket` | `net.ListenPacket("udp", ...)` |
+| 11 | `MulticastSocket` | `net.ListenMulticastUDP` |
+| 12 | RMI | `net/rpc`, gRPC |
+
+## Reference books
+
+1. Elliotte Rusty Harold, *Java Network Programming*, O'Reilly, 2014 (main textbook)
+2. Douglas E. Comer, David L. Stevens, *Internetworking with TCP/IP, Vol. III: Client-Server Programming and Applications*, Addison-Wesley, 2000
+3. Kenneth L. Calvert, Michael J. Donahoo, *TCP/IP Sockets in Java*, Morgan Kaufmann, 2008
