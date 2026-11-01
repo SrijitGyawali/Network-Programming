@@ -1,0 +1,24 @@
+# Java
+*.class
+*.jar
+out/
+
+# Go
+*.exe
+*.test
+bin/
+
+# Python (PDF generators)
+__pycache__/
+*.pyc
+
+# Logs from test runs
+*.log
+!**/access.log
+
+# Editors and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
