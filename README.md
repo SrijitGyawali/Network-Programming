@@ -13,14 +13,21 @@ concepts serve both the exam and Go backend job interviews.
 ```
 .
 ├── syllabus/                      official CACS355 syllabus (PDF)
-└── unit-01-introduction/
-    ├── Unit1_Introduction_Java_and_Go.pdf   study guide: theory -> Java -> Go
-    ├── java/                      exam programs (javac / java)
-    ├── go/                        the same programs in Go (go run)
-    └── make_pdf.py                regenerates the study guide PDF
+├── tools/
+│   └── np_pdf.py                  shared layout used by every unit's make_pdf.py
+├── unit-01-introduction/
+│   ├── Unit1_Introduction_Java_and_Go.pdf   study guide: theory -> Java -> Go
+│   ├── java/                      exam programs (javac / java)
+│   ├── go/                        the same programs in Go (go run)
+│   └── make_pdf.py                regenerates the study guide PDF
+└── unit-02-internet-addresses/
+    ├── Unit2_Internet_Addresses_Java_and_Go.pdf
+    ├── java/                      10 programs + access.log sample
+    ├── go/                        10 programs + access.log sample
+    └── make_pdf.py
 ```
 
-Each unit folder follows the same layout, so later units (`unit-02-...`, `unit-03-...`) will look the same.
+Each unit folder follows the same layout, so later units (`unit-03-...`, `unit-04-...`) will look the same.
 
 ## Progress
 
