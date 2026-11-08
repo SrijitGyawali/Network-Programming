@@ -40,8 +40,8 @@ Each unit folder follows the same layout, so later units (`unit-04-...`, `unit-0
 |---|---|---|---|
 | 1 | [Introduction](unit-01-introduction/) | 3 | Done |
 | 2 | [Internet Addresses](unit-02-internet-addresses/) | 4 | Done |
-| 3 | URLs and URIs | 5 | Coming next |
-| 4 | HTTP | 2 | Planned |
+| 3 | [URLs and URIs](unit-03-urls-and-uris/) | 5 | Done |
+| 4 | HTTP | 2 | Coming next |
 | 5 | URLConnections | 5 | Planned |
 | 6 | Socket for Clients | 5 | Planned |
 | 7 | Socket for Servers | 5 | Planned |
