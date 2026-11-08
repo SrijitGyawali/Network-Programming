@@ -20,14 +20,19 @@ concepts serve both the exam and Go backend job interviews.
 │   ├── java/                      exam programs (javac / java)
 │   ├── go/                        the same programs in Go (go run)
 │   └── make_pdf.py                regenerates the study guide PDF
-└── unit-02-internet-addresses/
-    ├── Unit2_Internet_Addresses_Java_and_Go.pdf
-    ├── java/                      10 programs + access.log sample
-    ├── go/                        10 programs + access.log sample
+├── unit-02-internet-addresses/
+│   ├── Unit2_Internet_Addresses_Java_and_Go.pdf
+│   ├── java/                      10 programs + access.log sample
+│   ├── go/                        10 programs + access.log sample
+│   └── make_pdf.py
+└── unit-03-urls-and-uris/
+    ├── Unit3_URLs_and_URIs_Java_and_Go.pdf
+    ├── java/                      17 programs + LocalTestServer
+    ├── go/                        16 programs + testserver
     └── make_pdf.py
 ```
 
-Each unit folder follows the same layout, so later units (`unit-03-...`, `unit-04-...`) will look the same.
+Each unit folder follows the same layout, so later units (`unit-04-...`, `unit-05-...`) will look the same.
 
 ## Progress
 
